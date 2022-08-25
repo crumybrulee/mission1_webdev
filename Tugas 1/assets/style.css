@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0 px;
+    grid-template-areas:    
+    "merah hijau hijau ungu ungu"
+    "merah pink hijaumuda hijaumuda hijaumuda"
+    "merah pink biru birutua birutua"
+    "jingga pink biru birutua birutua"
+    "jingga kuning kuning birutua birutua"
+    "jingga kuning kuning birutua birutua";
+}
+
+.box{
+    display: flex;
+    border: 0px solid #000);
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+.merah{
+    background-color: #e06666;
+    grid-area: merah;
+    color: #ffff00;
+}
+
+.hijau{
+    background-color:#00a15d;
+    grid-area: hijau;
+}
+
+.ungu{
+    background-color:#8e7cc3;
+    grid-area: ungu;
+}
+
+.pink{
+    background-color: pink;
+    grid-area: pink;
+}
+
+.kuning{
+    background-color:#ffff00;
+    grid-area: kuning;
+}
+
+.biru{
+    background-color: #00a15d;
+    grid-area: biru;
+}
+
+.hijaumuda{
+    background-color:#fed849;
+    grid-area: hijaumuda;
+}
+
+.birutua{
+    background-color:#3d85c6;
+    grid-area: birutua;
+    color: yellow;
+}
+
+.jingga{
+    background-color:#ffc800;
+    grid-area: jingga;
+}
